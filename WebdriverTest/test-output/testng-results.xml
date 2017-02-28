@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="61327" started-at="2017-02-28T05:01:36Z" finished-at="2017-02-28T05:02:37Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="61327" started-at="2017-02-28T05:01:36Z" finished-at="2017-02-28T05:02:37Z">
+      <class name="TestNG.NewTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestNG.NewTest@12c8a2c0]" name="setUp" is-config="true" duration-ms="8595" started-at="2017-02-28T00:01:36Z" finished-at="2017-02-28T00:01:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testcase(java.lang.String, java.lang.String)[pri:0, instance:TestNG.NewTest@12c8a2c0]" name="testcase" duration-ms="6943" started-at="2017-02-28T00:01:44Z" data-provider="GuruTest" finished-at="2017-02-28T00:01:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr66223]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rEpegYh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNG.NewTest@12c8a2c0]" name="afterTest" is-config="true" duration-ms="1266" started-at="2017-02-28T00:01:51Z" finished-at="2017-02-28T00:01:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestNG.NewTest@12c8a2c0]" name="setUp" is-config="true" duration-ms="6895" started-at="2017-02-28T00:01:53Z" finished-at="2017-02-28T00:01:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testcase(java.lang.String, java.lang.String)[pri:0, instance:TestNG.NewTest@12c8a2c0]" name="testcase" duration-ms="6973" started-at="2017-02-28T00:01:59Z" data-provider="GuruTest" finished-at="2017-02-28T00:02:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalidu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rEpegYh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNG.NewTest@12c8a2c0]" name="afterTest" is-config="true" duration-ms="1358" started-at="2017-02-28T00:02:06Z" finished-at="2017-02-28T00:02:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestNG.NewTest@12c8a2c0]" name="setUp" is-config="true" duration-ms="7036" started-at="2017-02-28T00:02:08Z" finished-at="2017-02-28T00:02:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testcase(java.lang.String, java.lang.String)[pri:0, instance:TestNG.NewTest@12c8a2c0]" name="testcase" duration-ms="6862" started-at="2017-02-28T00:02:15Z" data-provider="GuruTest" finished-at="2017-02-28T00:02:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr66223]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalidp]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNG.NewTest@12c8a2c0]" name="afterTest" is-config="true" duration-ms="1079" started-at="2017-02-28T00:02:22Z" finished-at="2017-02-28T00:02:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestNG.NewTest@12c8a2c0]" name="setUp" is-config="true" duration-ms="6240" started-at="2017-02-28T00:02:23Z" finished-at="2017-02-28T00:02:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testcase(java.lang.String, java.lang.String)[pri:0, instance:TestNG.NewTest@12c8a2c0]" name="testcase" duration-ms="6841" started-at="2017-02-28T00:02:29Z" data-provider="GuruTest" finished-at="2017-02-28T00:02:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalidu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalidp]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNG.NewTest@12c8a2c0]" name="afterTest" is-config="true" duration-ms="1092" started-at="2017-02-28T00:02:36Z" finished-at="2017-02-28T00:02:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNG.NewTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
