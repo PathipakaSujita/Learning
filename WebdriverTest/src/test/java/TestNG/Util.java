@@ -26,6 +26,10 @@ public class Util {
 	public static final String SECOND_PATTERN = "[0-9]+";
 
 	public static final String FIREFOX_PATH = "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe";
+	
+	public static final String TESTDATA_PATH = "C:\\Users\\pathi\\git\\Learning\\WebdriverTest\\TestDataExcel.xlsx";
+			 
+	public static final String TESTDATA_FILE = "TestDataExcel.xlsx";
 	public int num;
 
 	public static void takeSnapShot(WebDriver webdriver, String fileWithPath) throws Exception {

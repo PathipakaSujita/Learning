@@ -3,7 +3,8 @@
 <suite name="Suite">
 	<test name="Test">
 		<classes>
-			<class name="TestNG.NewTest" />
+			<class name="TestNG.FirefoxLoginUsingDataProvider" />
+			<class name="TestNG.ChromeLoginUsingDataDriven"/>
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -21,11 +21,11 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class NewTest {
+public class FirefoxLoginUsingDataProvider {
 	private WebDriver driver;
 	private String baseUrl;
 	int num = 0;
-	Logger log = Logger.getLogger("NewTest"); // creating logger
+	Logger log = Logger.getLogger("FirefoxLoginUsingDataProvider"); // creating logger
 
 	@DataProvider(name = "GuruTest")
 	public Object[][] testData() {
@@ -57,7 +57,7 @@ public class NewTest {
 
 	// Setup Test environment
 	@BeforeMethod
-	public void setUp() {
+	public void setUp() throws Exception {
 		log.info("Invoking Browser");
 		System.setProperty("webdriver.gecko.driver", "D://Skills/Sel/geckodriver-v0.13.0-win64/geckodriver.exe");
 		File pathToBinary = new File(Util.FIREFOX_PATH);
@@ -71,7 +71,7 @@ public class NewTest {
 	}
 
 	@Test(dataProvider = "GuruTest")
-	public void testcase(String username, String password) throws Exception {
+	public void testcaseFirefox(String username, String password) throws Exception {
 		String actualTitle;
 		String actualBoxMsg;
 
@@ -85,12 +85,10 @@ public class NewTest {
 
 		// Click Login
 		driver.findElement(By.name("btnLogin")).click();
-		log.info("Credentials are enteredand login button is pressed");
+		log.info("Credentials are entered and login button is pressed");
 		log.info("Screenshot is taken");
 
-		File srcFileerr = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(srcFileerr,
-				new File("D:\\Skills\\Sel Stuff\\Guru Project\\Project 1\\screenshoterror" + num + ".png"));
+
 		try {
 			/*
 			 * WebDriverWait wait=new WebDriverWait(driver,5);
@@ -98,8 +96,7 @@ public class NewTest {
 			 */
 			Thread.sleep(6000);
 			Alert alt = driver.switchTo().alert();
-
-			num = num + 1;
+			Util.takeSnapShot(driver, "D:\\Skills\\Sel Stuff\\Guru Project\\Project 1\\screenshotinvalidlogin" + num + ".png");
 			actualBoxMsg = alt.getText();
 			alt.accept();
 			Assert.assertEquals(actualBoxMsg, Util.EXPECT_ERROR);
@@ -117,7 +114,7 @@ public class NewTest {
 			Assert.assertTrue(remain.matches(Util.SECOND_PATTERN));
 			log.info("manager Id got printed on the screen");
 
-			Util.takeSnapShot(driver, "D:\\Skills\\Sel Stuff\\Guru Project\\Project 1\\screenshot.png");
+			Util.takeSnapShot(driver, "D:\\Skills\\Sel Stuff\\Guru Project\\Project 1\\screenshotvalidlogin.png");
 
 			/*
 			 * //CODE TO TAKE SCREENSHOT
@@ -132,6 +129,7 @@ public class NewTest {
 			 * ));
 			 */
 		}
+		num = num + 1;
 	}
 
 	@AfterMethod
