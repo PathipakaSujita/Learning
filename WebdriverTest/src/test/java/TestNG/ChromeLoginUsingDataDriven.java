@@ -32,6 +32,7 @@ Logger log = Logger.getLogger("ChromeLoginUsingDataDriven"); // creating logger
 		baseUrl = Util.BASE_URL;
 		driver.manage().timeouts().implicitlyWait(Util.WAIT_TIME, TimeUnit.SECONDS);
 		driver.get(baseUrl + "/v4/");
+		
 	}	
 
 	

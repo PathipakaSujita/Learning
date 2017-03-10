@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="TestNG.NewTest">
+      <class name="TestNG.PasswordResetTC">
         <methods>
-          <include name="testcase" invocation-numbers="0"/>
-          <include name="afterTest"/>
-          <include name="setUp"/>
+          <include name="deleteAccount"/>
+          <include name="setupBrowser"/>
+          <include name="addCustomer"/>
+          <include name="miniStatementCheck"/>
         </methods>
-      </class> <!-- TestNG.NewTest -->
+      </class> <!-- TestNG.PasswordResetTC -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

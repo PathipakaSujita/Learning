@@ -16,10 +16,16 @@ public class Util {
 	// Valid account for login
 	public static final String USER_NAME = "mngr66223";
 	public static final String PASSWD = "rEpegYh";
+	public static final String NEW_PASSWD = "123456@";
+
 
 	// Expected output
 	public static final String EXPECT_TITLE = "Guru99 Bank Manager HomePage";
+	public static final String EXPECT_loginPage_TITLE = "Guru99 Bank Home Page";
+
 	public static final String EXPECT_ERROR = "User or Password is not valid";
+	public static final String WRONG_OLDPWD_ALERTMSG="Old Password is incorrect";
+	
 
 	public static final String PATTERN = ":";
 	public static final String FIRST_PATTERN = "mngr";
@@ -30,6 +36,7 @@ public class Util {
 	public static final String TESTDATA_PATH = "C:\\Users\\pathi\\git\\Learning\\WebdriverTest\\TestDataExcel.xlsx";
 			 
 	public static final String TESTDATA_FILE = "TestDataExcel.xlsx";
+	
 	public int num;
 
 	public static void takeSnapShot(WebDriver webdriver, String fileWithPath) throws Exception {
