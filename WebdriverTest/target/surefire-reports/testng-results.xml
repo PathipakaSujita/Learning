@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="27259" started-at="2017-03-22T15:58:37Z" finished-at="2017-03-22T15:59:05Z">
+  <suite name="Suite" duration-ms="18676" started-at="2017-03-22T16:29:12Z" finished-at="2017-03-22T16:29:30Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="27259" started-at="2017-03-22T15:58:37Z" finished-at="2017-03-22T15:59:05Z">
+    <test name="Test" duration-ms="18676" started-at="2017-03-22T16:29:12Z" finished-at="2017-03-22T16:29:30Z">
       <class name="TestNG.PasswordResetTC">
-        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:TestNG.PasswordResetTC@3cda1055]" name="setupBrowser" is-config="true" duration-ms="14230" started-at="2017-03-22T11:58:37Z" finished-at="2017-03-22T11:58:52Z">
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:TestNG.PasswordResetTC@3cda1055]" name="setupBrowser" is-config="true" duration-ms="5773" started-at="2017-03-22T12:29:12Z" finished-at="2017-03-22T12:29:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method status="PASS" signature="loginWithGivenCredentials()[pri:1, instance:TestNG.PasswordResetTC@3cda1055]" name="loginWithGivenCredentials" duration-ms="1927" started-at="2017-03-22T11:58:52Z" finished-at="2017-03-22T11:58:54Z">
+        <test-method status="PASS" signature="loginWithGivenCredentials()[pri:1, instance:TestNG.PasswordResetTC@3cda1055]" name="loginWithGivenCredentials" duration-ms="1945" started-at="2017-03-22T12:29:18Z" finished-at="2017-03-22T12:29:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithGivenCredentials -->
-        <test-method status="PASS" signature="changePassword()[pri:2, instance:TestNG.PasswordResetTC@3cda1055]" name="changePassword" duration-ms="713" started-at="2017-03-22T11:58:54Z" finished-at="2017-03-22T11:58:54Z">
+        <test-method status="PASS" signature="changePassword()[pri:2, instance:TestNG.PasswordResetTC@3cda1055]" name="changePassword" duration-ms="1050" started-at="2017-03-22T12:29:19Z" finished-at="2017-03-22T12:29:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changePassword -->
-        <test-method status="PASS" signature="loginAfterPwdChange()[pri:3, instance:TestNG.PasswordResetTC@3cda1055]" name="loginAfterPwdChange" duration-ms="714" started-at="2017-03-22T11:58:54Z" finished-at="2017-03-22T11:58:55Z">
+        <test-method status="PASS" signature="loginAfterPwdChange()[pri:3, instance:TestNG.PasswordResetTC@3cda1055]" name="loginAfterPwdChange" duration-ms="738" started-at="2017-03-22T12:29:21Z" finished-at="2017-03-22T12:29:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAfterPwdChange -->
-        <test-method status="PASS" signature="addCustomer()[pri:4, instance:TestNG.PasswordResetTC@3cda1055]" name="addCustomer" duration-ms="2282" started-at="2017-03-22T11:58:55Z" finished-at="2017-03-22T11:58:57Z">
+        <test-method status="PASS" signature="addCustomer()[pri:4, instance:TestNG.PasswordResetTC@3cda1055]" name="addCustomer" duration-ms="2234" started-at="2017-03-22T12:29:21Z" finished-at="2017-03-22T12:29:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method status="PASS" signature="deleteAccount()[pri:5, instance:TestNG.PasswordResetTC@3cda1055]" name="deleteAccount" duration-ms="6046" started-at="2017-03-22T11:58:57Z" finished-at="2017-03-22T11:59:03Z">
+        <test-method status="PASS" signature="deleteAccount()[pri:5, instance:TestNG.PasswordResetTC@3cda1055]" name="deleteAccount" duration-ms="5913" started-at="2017-03-22T12:29:24Z" finished-at="2017-03-22T12:29:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteAccount -->
-        <test-method status="PASS" signature="miniStatementCheck()[pri:6, instance:TestNG.PasswordResetTC@3cda1055]" name="miniStatementCheck" duration-ms="1301" started-at="2017-03-22T11:59:03Z" finished-at="2017-03-22T11:59:05Z">
+        <test-method status="PASS" signature="miniStatementCheck()[pri:6, instance:TestNG.PasswordResetTC@3cda1055]" name="miniStatementCheck" duration-ms="990" started-at="2017-03-22T12:29:29Z" finished-at="2017-03-22T12:29:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- miniStatementCheck -->
