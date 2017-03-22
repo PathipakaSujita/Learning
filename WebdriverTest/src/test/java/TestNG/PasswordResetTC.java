@@ -127,7 +127,7 @@ public class PasswordResetTC {
 		customerpgobj.getState().sendKeys("NJ");
 		customerpgobj.getPinno().sendKeys("088300");
 		customerpgobj.getTelephoneno().sendKeys("9052355422");
-		customerpgobj.getEmailid().sendKeys("chuchumaven4@gmail.com");
+		customerpgobj.getEmailid().sendKeys("chuchugit1@gmail.com");
 		customerpgobj.getPassword().sendKeys(Util.NEW_PASSWD);
 		customerpgobj.getSubmit().click();
 		
