@@ -14,8 +14,8 @@ public class Util {
 	public static final String BASE_URL = "http://www.demo.guru99.com/";
 
 	// Valid account for login
-	public static final String USER_NAME = "mngr66223";
-	public static final String PASSWD = "rEpegYh";
+	public static final String USER_NAME = "mngr70640";
+	public static final String PASSWD = "nUhYjad";
 	public static final String NEW_PASSWD = "123456@";
 
 

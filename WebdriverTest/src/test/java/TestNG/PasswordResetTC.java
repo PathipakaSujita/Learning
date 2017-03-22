@@ -8,8 +8,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
@@ -39,6 +42,7 @@ public class PasswordResetTC {
 		driver.manage().timeouts().implicitlyWait(Util.WAIT_TIME, TimeUnit.SECONDS);
 		baseUrl = Util.BASE_URL;
 		driver.get(baseUrl + "/v4/");
+		
 	}
 
 	@Test(priority=1)
@@ -123,7 +127,7 @@ public class PasswordResetTC {
 		customerpgobj.getState().sendKeys("NJ");
 		customerpgobj.getPinno().sendKeys("088300");
 		customerpgobj.getTelephoneno().sendKeys("9052355422");
-		customerpgobj.getEmailid().sendKeys("gittinku954@gmail.com");
+		customerpgobj.getEmailid().sendKeys("chuchumaven4@gmail.com");
 		customerpgobj.getPassword().sendKeys(Util.NEW_PASSWD);
 		customerpgobj.getSubmit().click();
 		
@@ -188,6 +192,7 @@ public class PasswordResetTC {
 		
 		driver.switchTo().alert().accept();
 */
+	
 			
 	}
 	
@@ -195,10 +200,10 @@ public class PasswordResetTC {
 	public void miniStatementCheck()throws Exception{
 		DeleteAcPageObjects delAcPgObj= new DeleteAcPageObjects(driver);
 		System.out.println(AcNo);
-	
 		driver.findElement(By.partialLinkText("Mini Statement")).click();
 		//delAcPgObj.getMiniStatementLink().click();
-		
+		 /*Actions action =new Actions(driver);
+		 action.click();*/
 		
 		delAcPgObj.getMiniStatementacNo().sendKeys(AcNo);
 		
@@ -208,7 +213,6 @@ public class PasswordResetTC {
 		System.out.println(alertAfterAcDeleted);
 		
 		driver.switchTo().alert().accept();
-		
 	}
 	/*@AfterTest
 	public void afterMethod() throws Exception {
