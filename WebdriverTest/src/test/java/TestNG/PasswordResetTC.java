@@ -127,9 +127,11 @@ public class PasswordResetTC {
 		customerpgobj.getState().sendKeys("NJ");
 		customerpgobj.getPinno().sendKeys("088300");
 		customerpgobj.getTelephoneno().sendKeys("9052355422");
-		customerpgobj.getEmailid().sendKeys("chuchugit2@gmail.com");
+		customerpgobj.getEmailid().sendKeys("parallel1@gmail.com");
 		customerpgobj.getPassword().sendKeys(Util.NEW_PASSWD);
 		customerpgobj.getSubmit().click();
+		
+		
 		
 		String CustomerID =driver.findElement(By.xpath(".//*[@id='customer']/tbody/tr[4]/td[2]")).getText();
 		driver.findElement(By.linkText("New Account")).click();

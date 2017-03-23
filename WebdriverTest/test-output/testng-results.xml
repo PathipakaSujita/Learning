@@ -1,41 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23609" started-at="2017-03-22T15:06:33Z" finished-at="2017-03-22T15:06:57Z">
+  <suite name="Suite" duration-ms="92710" started-at="2017-03-23T19:48:47Z" finished-at="2017-03-23T19:50:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23609" started-at="2017-03-22T15:06:33Z" finished-at="2017-03-22T15:06:57Z">
-      <class name="TestNG.PasswordResetTC">
-        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:TestNG.PasswordResetTC@4bbfb90a]" name="setupBrowser" is-config="true" duration-ms="10907" started-at="2017-03-22T11:06:33Z" finished-at="2017-03-22T11:06:44Z">
+    <test name="Test" duration-ms="92710" started-at="2017-03-23T19:48:47Z" finished-at="2017-03-23T19:50:19Z">
+      <class name="TestNG.FirefoxLoginUsingDataProvider">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestNG.FirefoxLoginUsingDataProvider@1e6d1014]" name="setUp" is-config="true" duration-ms="22519" started-at="2017-03-23T15:48:47Z" finished-at="2017-03-23T15:49:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupBrowser -->
-        <test-method status="PASS" signature="loginWithGivenCredentials()[pri:1, instance:TestNG.PasswordResetTC@4bbfb90a]" name="loginWithGivenCredentials" duration-ms="2113" started-at="2017-03-22T11:06:44Z" finished-at="2017-03-22T11:06:46Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testcaseFirefox(java.lang.String, java.lang.String)[pri:0, instance:TestNG.FirefoxLoginUsingDataProvider@1e6d1014]" name="testcaseFirefox" duration-ms="9079" started-at="2017-03-23T15:49:10Z" data-provider="GuruTest" finished-at="2017-03-23T15:49:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr70640]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nUhYjad]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginWithGivenCredentials -->
-        <test-method status="PASS" signature="changePassword()[pri:2, instance:TestNG.PasswordResetTC@4bbfb90a]" name="changePassword" duration-ms="667" started-at="2017-03-22T11:06:46Z" finished-at="2017-03-22T11:06:47Z">
+        </test-method> <!-- testcaseFirefox -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNG.FirefoxLoginUsingDataProvider@1e6d1014]" name="afterTest" is-config="true" duration-ms="3751" started-at="2017-03-23T15:49:19Z" finished-at="2017-03-23T15:49:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- changePassword -->
-        <test-method status="PASS" signature="loginAfterPwdChange()[pri:3, instance:TestNG.PasswordResetTC@4bbfb90a]" name="loginAfterPwdChange" duration-ms="632" started-at="2017-03-22T11:06:47Z" finished-at="2017-03-22T11:06:47Z">
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestNG.FirefoxLoginUsingDataProvider@1e6d1014]" name="setUp" is-config="true" duration-ms="11276" started-at="2017-03-23T15:49:23Z" finished-at="2017-03-23T15:49:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginAfterPwdChange -->
-        <test-method status="PASS" signature="addCustomer()[pri:4, instance:TestNG.PasswordResetTC@4bbfb90a]" name="addCustomer" duration-ms="2268" started-at="2017-03-22T11:06:47Z" finished-at="2017-03-22T11:06:50Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testcaseFirefox(java.lang.String, java.lang.String)[pri:0, instance:TestNG.FirefoxLoginUsingDataProvider@1e6d1014]" name="testcaseFirefox" duration-ms="7235" started-at="2017-03-23T15:49:34Z" data-provider="GuruTest" finished-at="2017-03-23T15:49:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalidu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nUhYjad]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addCustomer -->
-        <test-method status="PASS" signature="deleteAccount()[pri:5, instance:TestNG.PasswordResetTC@4bbfb90a]" name="deleteAccount" duration-ms="5953" started-at="2017-03-22T11:06:50Z" finished-at="2017-03-22T11:06:56Z">
+        </test-method> <!-- testcaseFirefox -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNG.FirefoxLoginUsingDataProvider@1e6d1014]" name="afterTest" is-config="true" duration-ms="1560" started-at="2017-03-23T15:49:41Z" finished-at="2017-03-23T15:49:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteAccount -->
-        <test-method status="PASS" signature="miniStatementCheck()[pri:6, instance:TestNG.PasswordResetTC@4bbfb90a]" name="miniStatementCheck" duration-ms="1010" started-at="2017-03-22T11:06:56Z" finished-at="2017-03-22T11:06:57Z">
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestNG.FirefoxLoginUsingDataProvider@1e6d1014]" name="setUp" is-config="true" duration-ms="9739" started-at="2017-03-23T15:49:43Z" finished-at="2017-03-23T15:49:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- miniStatementCheck -->
-      </class> <!-- TestNG.PasswordResetTC -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testcaseFirefox(java.lang.String, java.lang.String)[pri:0, instance:TestNG.FirefoxLoginUsingDataProvider@1e6d1014]" name="testcaseFirefox" duration-ms="7523" started-at="2017-03-23T15:49:52Z" data-provider="GuruTest" finished-at="2017-03-23T15:50:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr70640]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalidp]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseFirefox -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNG.FirefoxLoginUsingDataProvider@1e6d1014]" name="afterTest" is-config="true" duration-ms="1562" started-at="2017-03-23T15:50:00Z" finished-at="2017-03-23T15:50:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestNG.FirefoxLoginUsingDataProvider@1e6d1014]" name="setUp" is-config="true" duration-ms="9265" started-at="2017-03-23T15:50:02Z" finished-at="2017-03-23T15:50:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testcaseFirefox(java.lang.String, java.lang.String)[pri:0, instance:TestNG.FirefoxLoginUsingDataProvider@1e6d1014]" name="testcaseFirefox" duration-ms="7095" started-at="2017-03-23T15:50:11Z" data-provider="GuruTest" finished-at="2017-03-23T15:50:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalidu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalidp]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseFirefox -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNG.FirefoxLoginUsingDataProvider@1e6d1014]" name="afterTest" is-config="true" duration-ms="1450" started-at="2017-03-23T15:50:18Z" finished-at="2017-03-23T15:50:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNG.FirefoxLoginUsingDataProvider -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
